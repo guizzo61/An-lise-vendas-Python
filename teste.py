@@ -15,7 +15,7 @@ with open('dados.csv', newline='', encoding= 'utf-8') as arquivo:
             produtos[produto] += quantidade
         else:
             produtos[produto] = quantidade
-print('\nTodos de vendas: ', total)
+print('\nTotal de vendas: ', total)
 
 print('\nTodos os produtos: ')
 for p, q in produtos.items():
