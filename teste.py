@@ -19,4 +19,4 @@ print('\nTodos de vendas: ', total)
 
 print('\nTodos os produtos: ')
 for p, q in produtos.items():
-    print(p, 'qnt:',q)
+    print(p, 'quantidade:',q)
